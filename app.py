@@ -54,7 +54,7 @@ def add():
 
   return '{"Result":"Success"}'
 
-@app.route("/") #Default - Show Data
+@app.route("/index.html") #Default - Show Data
 def index(): 
     return render_template('index.html')
 
